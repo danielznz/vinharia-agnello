@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffcf6;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 190px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* referência que pegamos para estilizar a linha: https://freefrontend.com/html-hr/ */
+hr {
+    width: 300px;
+    height: 2px;
+    margin: 0 auto;
+    border: none;
+    background-image: linear-gradient(90deg,
+            #00000000,
+            #5a0816 50%,
+            rgba(0, 0, 0, 0) 100%);
+}
+
+.descricao {
+    color: #5a0816;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    text-align: center;
+    max-width: 560px;
+    margin: 48px auto 0;
+    opacity: 0.85;
+}
+
+.copy {
+    font-family: Arial, sans-serif;
+    position: fixed;
+    bottom: 16px;
+    left: 0;
+    width: 100%;
+    color: #887b62;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    text-align: center;
+    text-transform: uppercase;
+}
