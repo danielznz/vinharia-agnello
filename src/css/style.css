@@ -61,3 +61,31 @@ hr {
     text-align: center;
     text-transform: uppercase;
 }
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+}
+
+a {
+    color: #fffcf6;
+    text-decoration: none;
+}
+
+.botao {
+    background: #5a0816;
+    color: #fffcf6;
+    margin: 48px 10px 0px; 
+    padding: 14px 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    text-transform: upper;
+    transition: transform 0.3s ease;
+}
+.botao:hover {
+    background-color: #830c20;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #1a030677;
+}
