@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho h1 {
+    color: #5a0816;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 48px;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputuser{
+    border-radius:5px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid #5a0816;
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botaoenviar {
+    width: 150px;
+    height: 55px;
+    background: #5a0816;
+    color: #fffcf6;
+    padding: 14px 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 16px;
+    border: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.divform {
+    background-color: #fffcf6;
+    width: 30%;
+    border-radius: 40px;
+    border: 2px solid #5a0816;
+    display: flex;
+    margin:0 auto;
+    margin-top: 48px;
+}
+
+.boxtext {
+    background-color: #fffcf6;
+    width: 350px;
+    border-radius: 5px;
+    text-align: justify;
+    border: 2px solid #5a0816;
+    display: flex;
+    margin:0 auto;
+    margin-top: 48px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px;
+    resize: none;
+}
