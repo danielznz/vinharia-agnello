@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffcf6;
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    text-align: center;
+    margin: 48px;
+}
+
+.cabecalho h1 {
+    color: #5a0816;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secao-equipe {
+    margin-top: 64px;
+}
+
+.titulo-secao {
+    color: #5a0816;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 32px;
+}
+
+.grid-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.membro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    text-align: center;
+}
+
+.foto-membro {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.nome-membro {
+    color: #5a0816;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 4px;
+    width: 200px;
+}
+
+.funcao-membro {
+    color: #887b62;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
