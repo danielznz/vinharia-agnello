@@ -1,7 +1,7 @@
 
 var VinhosCadastro = parseInt(prompt("Quantos vinhos serão cadastrados?"))
 
-function CadastroDeVinhos() {
+function CadastroDeVinhos() {   
     var nomeDoVinho = prompt("Digite o nome e tipo do vinho que deseja cadastrar: ");
     var tipo = prompt("Qual é o tipo de vinho? (Tinto, Branco, Rosé) ")
     var safra = prompt("Qual é a safra dele? ");
