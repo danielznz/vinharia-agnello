@@ -90,7 +90,7 @@ a {
     cursor: pointer;
 }
 
-.copy {
+/* .copy {
     flex-shrink: 0;
     padding: 12px 20px 18px;
     font-family: Arial, sans-serif;
@@ -100,7 +100,7 @@ a {
     letter-spacing: 0.08em;
     text-align: center;
     text-transform: uppercase;
-}
+} */
 
 .botoes {
     display: flex;
@@ -113,25 +113,33 @@ a {
     text-decoration: none;
 }
 
-.botao {
-    background: #5a0816;
+::selection {
+    background-color: #5a0816;
     color: #fffcf6;
-    margin: 48px 10px ; 
-    padding: 14px 40px;
-    font-size: 20px;
+}
+
+details summary {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
-    text-transform: upper;
-    transition: transform 0.3s ease;
-}
-.botao:hover {
-    background-color: #830c20;
-    transform: scale(1.1);
-    box-shadow: 5px 5px 5px #1a030677;
-}
-
-#linkedin {
-
+    font-weight: bold;
     color: #5a0816;
+    margin: 24px 0;
+    font-size: 24px;
+    text-align: center;
+    animation: glow 3s infinite;
+    transition: .3s ease-in-out;
+    
+}
 
+details[open] summary {
+    transition: 0.2s ease-in-out;
+}
+
+.summary-titulo:hover{
+    transform: scale(1.05);
+}
+
+@keyframes glow {
+    0% {opacity: 50%;}
+    50% {opacity: 100%;}
+    100% {opacity: 50%;}
 }

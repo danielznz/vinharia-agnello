@@ -63,6 +63,13 @@ section p {
     margin-bottom: 16px;
 }
 
+p::first-letter {
+    font-size: 32px;
+    color: #5a0816;
+    font-weight: bold;
+    
+}
+
 #video {
     text-align: center;
 }
@@ -79,4 +86,9 @@ section p {
     height: 220px;
     object-fit: cover;
     border-radius: 16px;
+}
+
+li a:hover {
+    color: #5a0816;
+    font-size: medium;
 }

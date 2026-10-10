@@ -22,12 +22,13 @@
 
 .inputuser{
     border-radius:5px;
-    width: 300px;
+    width: 90%;
     height: 30px;
     border: 2px solid #5a0816;
     text-align: center;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
 }
 
 .botaoenviar {
@@ -49,6 +50,13 @@
     text-align: center;
 }
 
+.botaoenviar:hover{
+    background-color: #830c20;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #1a030677;
+    cursor: pointer;
+}
+
 .divform {
     background-color: #fffcf6;
     width: 30%;
@@ -61,15 +69,27 @@
 
 .boxtext {
     background-color: #fffcf6;
-    width: 350px;
+    width: 95%;
     border-radius: 5px;
     text-align: justify;
     border: 2px solid #5a0816;
     display: flex;
     margin:0 auto;
-    margin-top: 48px;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 12px;
     resize: none;
+    margin-bottom: 25px;
+}
+
+.inputuser:focus {
+    outline: none;
+    border: 3px solid #5a0816;
+    transform: scale(1.05);
+}
+
+.boxtext:focus {
+    outline: none;
+    border: 3px solid #5a0816;
+    transform: scale(1.05);
 }
