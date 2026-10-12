@@ -143,3 +143,29 @@ details[open] summary {
     50% {opacity: 100%;}
     100% {opacity: 50%;}
 }
+
+.barra {
+    width: 100%;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: white;
+    background-color: #5a0816;
+    overflow: hidden;
+}
+
+.barra p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    animation: deslizar 50s linear infinite;
+    white-space: nowrap;
+    letter-spacing: 0.7px;
+} 
+
+@keyframes deslizar {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-100vw);
+    }
+}
