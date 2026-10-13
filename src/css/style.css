@@ -127,7 +127,6 @@ details summary {
     text-align: center;
     animation: glow 3s infinite;
     transition: .3s ease-in-out;
-    
 }
 
 details[open] summary {
@@ -136,6 +135,10 @@ details[open] summary {
 
 .summary-titulo:hover{
     transform: scale(1.05);
+}
+
+body {
+    overflow-x: clip;
 }
 
 @keyframes glow {
