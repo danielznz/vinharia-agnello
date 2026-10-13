@@ -1,0 +1,82 @@
+.botao, .botaoenviar {
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botao:hover, .botaoenviar:hover {
+    background-color: #830c20;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #1a030677;
+    cursor: pointer;
+}
+
+.inputuser, .boxtext {
+    transition: .2s ease-in;
+}
+
+.inputuser:focus, .boxtext:focus {
+    outline: none;
+    border: 3px solid #5a0816;
+    transform: scale(1.05);
+}
+
+.foto-vinho, .foto-galeria {
+    transition: .2s ease-in;
+}
+
+.foto-vinho:hover, .foto-galeria:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+nav a {
+    transition: .2s ease-in;
+}
+
+nav a:hover, .summary-titulo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+li a:hover {
+    color: #5a0816;
+    font-size: medium;
+}
+
+::selection {
+    background-color: #5a0816;
+    color: #fffcf6;
+}
+
+details summary {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #5a0816;
+    margin: 24px 0;
+    font-size: 24px;
+    text-align: center;
+    animation: glow 3s infinite;
+    transition: .3s ease-in-out;
+}
+
+details[open] summary {
+    transition: 0.2s ease-in-out;
+}
+
+@keyframes glow {
+    0% { opacity: 50%; }
+    50% { opacity: 100%; }
+    100% { opacity: 50%; }
+}
+
+.barra p {
+    animation: deslizar 50s linear infinite;
+}
+
+@keyframes deslizar {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-100vw);
+    }
+}

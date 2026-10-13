@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: clip;
 }
 
 .container-logo {
@@ -79,72 +80,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 32px;
-}
-
-.botao:hover {
-    background-color: #830c20;
-    transform: scale(1.05);
-    box-shadow: 5px 5px 5px #1a030677;
-    cursor: pointer;
-}
-
-/* .copy {
-    flex-shrink: 0;
-    padding: 12px 20px 18px;
-    font-family: Arial, sans-serif;
-    color: #887b62;
-    font-size: 11px;
-    font-weight: 300;
-    letter-spacing: 0.08em;
-    text-align: center;
-    text-transform: uppercase;
-} */
-
-.botoes {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;    
-}
-
-a {
-    color: #fffcf6;
-    text-decoration: none;
-}
-
-::selection {
-    background-color: #5a0816;
-    color: #fffcf6;
-}
-
-details summary {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #5a0816;
-    margin: 24px 0;
-    font-size: 24px;
-    text-align: center;
-    animation: glow 3s infinite;
-    transition: .3s ease-in-out;
-}
-
-details[open] summary {
-    transition: 0.2s ease-in-out;
-}
-
-.summary-titulo:hover{
-    transform: scale(1.05);
-}
-
-body {
-    overflow-x: clip;
-}
-
-@keyframes glow {
-    0% {opacity: 50%;}
-    50% {opacity: 100%;}
-    100% {opacity: 50%;}
 }
 
 .barra {
@@ -159,16 +95,7 @@ body {
 .barra p {
     margin-top: 4px;
     margin-bottom: 4px;
-    animation: deslizar 50s linear infinite;
     white-space: nowrap;
     letter-spacing: 0.7px;
-} 
-
-@keyframes deslizar {
-    from {
-        transform: translateX(100vw);
-    }
-    to {
-        transform: translateX(-100vw);
-    }
 }
+

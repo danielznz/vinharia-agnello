@@ -20,8 +20,8 @@
     flex-direction: column;
 }
 
-.inputuser{
-    border-radius:5px;
+.inputuser {
+    border-radius: 5px;
     width: 90%;
     height: 30px;
     border: 2px solid #5a0816;
@@ -29,7 +29,6 @@
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 25px;
-    transition: .2s ease-in;
 }
 
 .botaoenviar {
@@ -46,16 +45,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 48px;
     text-align: center;
-}
-
-.botaoenviar:hover{
-    background-color: #830c20;
-    transform: scale(1.05);
-    box-shadow: 5px 5px 5px #1a030677;
-    cursor: pointer;
 }
 
 .divform {
@@ -64,7 +55,7 @@
     border-radius: 40px;
     border: 2px solid #5a0816;
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 48px;
 }
 
@@ -75,27 +66,13 @@
     text-align: justify;
     border: 2px solid #5a0816;
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 12px;
     resize: none;
     margin-bottom: 25px;
-    transition: .2s ease-in;
 }
-
-.inputuser:focus {
-    outline: none;
-    border: 3px solid #5a0816;
-    transform: scale(1.05);
-}
-
-.boxtext:focus {
-    outline: none;
-    border: 3px solid #5a0816;
-    transform: scale(1.05);
-}
-
 
 .grupo-checkbox {
     width: 90%;
@@ -112,17 +89,7 @@
     width: 18px;
     height: 18px;
     accent-color: #5a0816;
-    cursor: pointer;
     flex-shrink: 0;
-}
-
-.grupo-checkbox input[type="checkbox"]:checked {
-    accent-color: #830c20;
-}
-
-.grupo-checkbox input[type="checkbox"]:checked + label {
-    font-weight: bold;
-    color: #830c20;
 }
 
 .grupo-checkbox label {
