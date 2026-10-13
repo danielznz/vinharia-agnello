@@ -37,6 +37,12 @@ nav a {
     padding-bottom: 4px;
     border-bottom: 1px solid transparent;
     font-weight: 700;
+    transition: .2s ease-in;
+}
+
+nav a:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
 }
 
 main {
@@ -86,6 +92,12 @@ p::first-letter {
     height: 220px;
     object-fit: cover;
     border-radius: 16px;
+    transition: .2s ease-in;
+}
+
+.foto-galeria:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
 }
 
 li a:hover {

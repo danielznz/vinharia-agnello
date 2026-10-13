@@ -29,6 +29,7 @@
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 25px;
+    transition: .2s ease-in;
 }
 
 .botaoenviar {
@@ -69,7 +70,7 @@
 
 .boxtext {
     background-color: #fffcf6;
-    width: 95%;
+    width: 90%;
     border-radius: 5px;
     text-align: justify;
     border: 2px solid #5a0816;
@@ -80,6 +81,7 @@
     padding: 12px;
     resize: none;
     margin-bottom: 25px;
+    transition: .2s ease-in;
 }
 
 .inputuser:focus {

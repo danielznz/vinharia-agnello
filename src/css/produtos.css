@@ -53,6 +53,7 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
     object-fit: cover;
+    transition: .2s ease-in;
 }
 
 .foto-vinho:hover {
