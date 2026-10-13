@@ -93,3 +93,36 @@
     border: 3px solid #5a0816;
     transform: scale(1.05);
 }
+
+
+.grupo-checkbox {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #5a0816;
+}
+
+.grupo-checkbox input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #5a0816;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.grupo-checkbox input[type="checkbox"]:checked {
+    accent-color: #830c20;
+}
+
+.grupo-checkbox input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: #830c20;
+}
+
+.grupo-checkbox label {
+    cursor: pointer;
+}
